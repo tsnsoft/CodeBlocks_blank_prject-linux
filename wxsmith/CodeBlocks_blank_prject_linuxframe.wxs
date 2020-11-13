@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="CodeBlocks_blank_prject_linuxFrame">
+		<title>Пример пустой программы</title>
+		<centered>1</centered>
+		<icon stock_id="wxART_GO_HOME" />
+		<size>600,400</size>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>Наносите компоненты</label>
+			<pos>168,96</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>И делайте обрабтчики событий к ним</label>
+			<pos>216,224</pos>
+		</object>
+	</object>
+</wxsmith>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CodeBlocks_blank_prject-linux" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CodeBlocks_blank_prject-linux" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CodeBlocks_blank_prject-linux" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="`wx-config --cflags`" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="`wx-config --libs`" />
+		</Linker>
+		<Unit filename="CodeBlocks_blank_prject_linuxApp.cpp" />
+		<Unit filename="CodeBlocks_blank_prject_linuxApp.h" />
+		<Unit filename="CodeBlocks_blank_prject_linuxMain.cpp" />
+		<Unit filename="CodeBlocks_blank_prject_linuxMain.h" />
+		<Unit filename="wxsmith/CodeBlocks_blank_prject_linuxframe.wxs" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="CodeBlocks_blank_prject_linuxApp.cpp" main="CodeBlocks_blank_prject_linuxFrame" init_handlers="necessary" language="CPP" />
+				<resources>
+					<wxFrame wxs="wxsmith/CodeBlocks_blank_prject_linuxframe.wxs" src="CodeBlocks_blank_prject_linuxMain.cpp" hdr="CodeBlocks_blank_prject_linuxMain.h" fwddecl="0" i18n="1" name="CodeBlocks_blank_prject_linuxFrame" language="CPP" />
+				</resources>
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
